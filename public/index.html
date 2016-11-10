@@ -1,12 +1,176 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <title>portfolio</title>
-    <link rel="stylesheet" href="/screen.css">
+      <link data-require="bootstrap@*" data-semver="4.0.0-alpha.2" rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css" />
+      <script data-require="bootstrap@*" data-semver="4.0.0-alpha.2" src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+       <script data-require="jquery@*" data-semver="3.0.0" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
+      <link rel="stylesheet" href="screen.css">
+      <script src="JavaScript.js"></script>
   </head>
   <body>
-    <h1>Hello, World!</h1>
-  </body>
+    
+
+      <header>
+          <nav class="navbar navbar-fixed-top navbar-inverse">
+              <div class="container-fluid">
+                  <div class="navbar-header navbar-title">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" id="navbar-title" href="#top" style="color:#C3EEE7">Rick Channell</a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                      <ul class="nav navbar-nav navbar-right">
+                          <li><a href="#about-me" class="scroll">About Me</a></li>
+                          <li><a href="#portfolio" class="scroll">Portfolio</a></li>
+                          <li><a href="#contact-form" class="scroll">Contact</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+          <div class="container-fluid text-center">
+              <div class="jumbotron">
+                  <div class="row>"
+              <div class="col-md-10 col-md-offset-1">
+    <h1 id="top">Rick James Channell</h1>
+    <p class="lead">web developer<p>
+       </div>
+       </div>
+              </div>
+          </div>
+
+      </header>
+
+      <body>
+          <div id="about-me"></div>
+          <section class="about-me">
+              <div>
+                  <h2 class="text-center">About Me</h2>
+                  <hr>
+                  <div>
+                      <img class="col-xs-4" src="https://scontent.fhsv1-1.fna.fbcdn.net/v/t1.0-9/74117_100230770048145_3106485_n.jpg?oh=e109262fb182dd810a0ced32979ab5db&oe=583DBCED" alt="Picture of Rick Channell">
+                  </div>
+                  <div>
+                      <p class="col-xs-8">
+                          I'm an Army veteran, very motivated to learn web development.  Using freecodecamp.com, reading books, and watching hours of video's on diffrent languages, and attending The Iron Yard coding bootcamp twice a week for their crash courses and open code nights. I feel very comfortable with HTML, CSS, Javascript, and bootstrap framework. I am working with angular 2 on the "Front-end Master's" website course, and reactjs in class.  Most of that content is difficult to follow, and leaves people zoning out not learning much.  With the techniques I learned in the Army as a Human Resources Specialist to keep my self motivated, actively learning difficult concepts, while staying interested in the subject matter. I am able to absorb more information and pay closer attention to detail while taking notes that I keep well organized for quick recall to be a great team player.  Doing the best I can to be ready at all times, and contribute to my full potential.  All thanks to the experience I gained while in the Army, and my drive to be the best I can be.
+
+                      </p>
+                  </div>
+
+              </div>
+          </section>
+          <section class="portfolio" id="portfolio">
+              <h2 class="text-center">Portfolio</h2>
+              <hr>
+              <div class="portfolio-container">
+                  <figure class="project-tab">
+                      <p data-height="265" data-theme-id="0" data-slug-hash="qNGXVm" data-default-tab="html,result" data-user="rickjames115" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/rickjames115/pen/qNGXVm/">tribute</a> by Rick Channell (<a href="http://codepen.io/rickjames115">@rickjames115</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                      <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+                      <a href="http://codepen.io/rickjames115/pen/qNGXVm" target="_blank">
+                          <img src="">
+                          <figcaption>
+                              <h4>Tribute Page</h4>
+                              <p>First project on Freecodecamp.com</p>
+                          </figcaption>
+                      </a>
+                  </figure>
+
+                  <figure class="project-tab">
+                      <p data-height="265" data-theme-id="0" data-slug-hash="yapEOL" data-default-tab="js,result" data-user="rickjames115" data-embed-version="2" data-pen-title="Pick a #" class="codepen">See the Pen <a href="http://codepen.io/rickjames115/pen/yapEOL/">Pick a #</a> by Rick Channell (<a href="http://codepen.io/rickjames115">@rickjames115</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                      <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+                      <a href="http://codepen.io/rickjames115/pen/yapEOL" target="_blank">
+                          <img src="">
+                          <figcaption>
+                              <h4>Pick a #</h4>
+                              <p> Simple algorithm, useful for searching large files structures!</p>
+                          </figcaption>
+                      </a>
+                  </figure>
+
+                  <figure class="project-tab">
+                      <p data-height="265" data-theme-id="0" data-slug-hash="zKZGOv" data-default-tab="result" data-user="rickjames115" data-embed-version="2" data-pen-title="conway's game of life" class="codepen">See the Pen <a href="http://codepen.io/rickjames115/pen/zKZGOv/">conway's game of life</a> by Rick Channell (<a href="http://codepen.io/rickjames115">@rickjames115</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                      <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+                      <a href="http://codepen.io/rickjames115/pen/zKZGOv" target="_blank">
+                          <img src="">
+                          <figcaption>
+                              <h4>Conway's Game of Life.</h4>
+                              <p>Global Day of Code Project, coded in pairs "ping pong style" at The Iron Yard coding bootcamp</p>
+                          </figcaption>
+                      </a>
+                  </figure>
+
+
+
+              </div>
+      </body>
+      </section>
+
+      <section class="contact-form" id="contact-form">
+          <h2 class="text-center">Contact Me</h2>
+          <hr>
+          <p class="text-center">Want to get in touch?<br>Feel free to contact me for more information! </p>
+          <form class="form-horizontal" role="form" method="post" action="index.php">
+              <div class="form-group">
+                  <div class="col-sm-12">
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" value="">
+                  </div>
+              </div>
+              <div class="form-group">
+                  <div class="col-sm-12">
+                      <input type="email" class="form-control" id="email" name="email" placeholder="Email" value="">
+                  </div>
+              </div>
+              <div class="form-group" id="social">
+                  <div class="col-sm-12">
+                      <textarea class="form-control" rows="4" name="message" placeholder="Message"></textarea>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <div class="col-sm-12">
+                      <input id="submit" name="submit" type="submit" value="Send" class="btn btn-default">
+                  </div>
+              </div>
+              <div class="form-group">
+                  <div class="col-sm-10 col-sm-offset-2">
+                  </div>
+              </div>
+          </form>
+
+
+          <div class="container-fluid site-footer">
+              <div class="row">
+                  <div class="col-md-12">
+
+                      <footer>
+
+                          <section class="social" id="social">
+                              <h2 class="text-center">Social Me</h2>
+                              <hr>
+                              <ul class="social-links text-center">
+                                  <li><a class="facebook" href="https://facebook.com/rick.channell.9" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+                                  <li><a class="linkedin" href="https://www.linkedin.com/in/rick-channell-57495812a?trk=hp-identity-name" title="LinkedIn" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                                  <li><a class="codepen" href="https://codepen.io/rickjames115" title="Codepen" target="_blank"><i class="fa fa-codepen"></i></a></li>
+                                  <li><a class="github" href="https://github.com/rickjames115" title="Github" target="_blank"><i class="fa fa-github"></i></a></li>
+                                  <li><a class="freecodecamp" href="https://www.freecodecamp.com/rickjames115" title="Free Code Camp" target="_blank"><i class="fa fa-fire"></i></a></li>
+                              </ul>
+                              <div class="contribution text-center">
+                                  <p style="color:dimgrey; font-size:12px"><i class="fa fa-code"></i><u> by Rick James Channell</u></p>
+                              </div>
+                          </section>
+                      </footer>
+                  </div>
+              </div>
+          </div>
+
+
+
+
+
+
+</body>
 </html>
